@@ -4,9 +4,9 @@ class Combat
         puts "@@@#{war1["name"]} vs #{war2["name"]}@@@"
         
         puts "######Who is moving first...Please wait######"
-        sleep 2
+        sleep 1
         
-        puts "######Download...######"
+        puts "######Loading...######"
         sleep 1
         
         roll = rand(1..2)
