@@ -8,7 +8,7 @@ char = Characters
 
 
 
-player1 = combat.roll_turn(char.fighters[:human], char.fighters[:orc])
+start = combat.roll_turn(char.fighters[:human], char.fighters[:orc])
 
 
 
