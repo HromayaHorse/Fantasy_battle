@@ -37,9 +37,3 @@ attr_accessor :fighters
 }
 
 end
-
-
-
-include Characters
-
-puts Characters.fighters[:human]["name"]

@@ -9,7 +9,7 @@ class Combat
         puts "######Download...######"
         sleep 1
         
-        roll = 2
+        roll = rand(1..2)
 
         @indexTurn = 0
 
